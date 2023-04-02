@@ -1,0 +1,133 @@
+/*Estimado profesor, espero esta vez sí, no haber cometido errores en la lectura*/
+/*he modificado un par de cosas, tal como usted ha sugerido en la clase*/
+body {
+  /* Actividad 1:regla agregada según indicación del documento pdf */
+  /*color: red;*/
+  margin: 0px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  /*agregando un estilo personal (valor agregado)*/
+  /*un gradiente sencillo como fondo del cuerpo*/
+  /*ejemplo inspirado por la w3school*/
+  background-image: linear-gradient(to right, cyan, yellow);
+}
+
+.header {
+  /*height: 20em;*/
+  background-image: url("../imgs/fondo.jpg");
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 3em;
+  /*se agrega lo siguiente a sugerencia del texto*/
+  height: 10em;
+  padding: 5em;
+  font-size: 2em;
+}
+
+.header .main-text {
+  padding: 3em;
+  font-size: 2em;
+  font-weight: 400;
+}
+
+.header h1 {
+  font-weight: 400;
+  /*eliminando margenes*/
+  margin: 0;
+}
+
+/*la clase main es reemplazada llamada products*/
+/*.main {
+  width: 80%;
+  margin: auto;
+}*/
+
+/*.main td {
+  width: 50%;
+  padding: 2em;
+}*/
+
+/*.main img {
+  max-width: 100%;
+  border: solid 1px #ddd;
+}*/
+
+.footer {
+  height: 3em;
+  line-height: 3em;
+  background-color: rgb(185, 112, 41);
+  color: white;
+  text-align: center;
+  font-weight: 900;
+}
+
+/*Agregando según instrucciones del archivo pdf*/
+.productos {
+  width: 80%;
+  margin: auto;
+}
+
+.productos td {
+  width: 50%;
+  padding: 2em;
+}
+
+.productos img {
+  width: 100%;
+  /*border: solid 1px #ddd;*/
+  /*cambio el color del borde para que se aprecie mejor*/
+  border: solid 1px green;
+}
+
+/*Actividad 2: modificando estilos de table.*/
+/*Centrando la table*/
+/*table {
+  width: 50%;
+  margin: auto;
+}*/
+
+/*Aplicando bordes a table*/
+/* Intento 2*/
+/*
+table,
+th,
+td {
+  border: 1px solid #ddd;
+}*/
+
+/*Intento 3*/
+/*table,
+th,
+td {
+  border: 1px solid #ddd;
+  border-collapse: collapse;
+}*/
+
+/*Intento 4*/
+/*table,
+th,
+td {
+  border-bottom: 1px solid #ddd;
+  border-collapse: collapse;
+}*/
+
+/*Aplicando color de fondo*/
+/*thead {
+  background-color: cornflowerblue;
+  color: white;
+  font-weight: 800;
+}*/
+
+/*Alineación*/
+/*td {
+  text-align: right;
+}*/
+
+/*Aplicando relleno (padding)*/
+/*th {
+  padding: .5em;
+}
+
+td {
+  text-align: right;
+  padding: .2em;
+}*/
